@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+<parameter name="url" value="https://Login.Saleforce.com"></parameter>
+	<parameter name="username" value="jnaneshcm"></parameter>
+	<parameter name="password" value="test@123"></parameter>
+	<test name="Login">
+
+		<classes>
+			<class name="com.training.annotations.Firstclass"></class>
+			<class name="com.training.annotations.Secondclass"></class>
+			<class name="com.training.annotations1.Thirdclass"></class>
+		</classes>
+	</test>
+<!-- 	<test name="HomeTab">
+
+		<classes>
+			<class name="com.training.annotations.LoginAnnotation"></class>
+		</classes>
+	</test> -->
+</suite>
